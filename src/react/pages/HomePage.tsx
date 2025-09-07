@@ -1,6 +1,6 @@
-import { ChartAreaInteractive } from "./chart-area-interactive";
-import { DataTable } from "./data-table";
-import { SectionCards } from "./section-cards";
+import { ChartAreaInteractive } from "../components/chart-area-interactive";
+// import { DataTable } from "./data-table";
+import { SectionCards } from "../components/section-cards";
 import data from "../lib/data.json";
 
 export default function HomePage() {
@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="px-4 lg:px-6">
           <ChartAreaInteractive />
         </div>
-        <DataTable data={data} />
+        {/* <DataTable data={data} /> */}
       </div>
     </div>
   </div>;

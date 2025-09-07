@@ -175,7 +175,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <div>
                 <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Clinical</span>
+                <span className="text-base font-semibold">Smart Clinic</span>
               </div>
             </SidebarMenuButton>
           </SidebarMenuItem>

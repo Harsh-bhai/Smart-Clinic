@@ -6,7 +6,7 @@ import RolesAndAccessPage from "./pages/RolesAndAccessPage"
 import PatientsPage from "./pages/PatientsPage"
 import FormSettingsPage from "./pages/FormSettingsPage"
 import MessagesPage from "./pages/MessagesPage"
-import HomePage from "./components/HomePage"
+import HomePage from "./pages/HomePage"
 
 const AppRoutes = () => {
   return (
