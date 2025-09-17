@@ -1,6 +1,5 @@
 // import { DataTable } from '@/components/data-table'
 import DataTable from '@/components/origin-data-table'
-import data from '../lib/data.json'
 
 const AppointmentsPage = () => {
   return (

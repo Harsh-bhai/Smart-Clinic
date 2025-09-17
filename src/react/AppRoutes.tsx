@@ -7,6 +7,7 @@ import PatientsPage from "./pages/PatientsPage"
 import FormSettingsPage from "./pages/FormSettingsPage"
 import MessagesPage from "./pages/MessagesPage"
 import HomePage from "./pages/HomePage"
+import LoginPage from "./pages/LoginPage"
 
 const AppRoutes = () => {
   return (
@@ -19,6 +20,7 @@ const AppRoutes = () => {
         <Route path="/patients" element={<PatientsPage />} />
         <Route path="/form-settings" element={<FormSettingsPage />} />
         <Route path="/messages" element={<MessagesPage />} />
+        <Route path="/login" element={<LoginPage />} />
     </Routes>
   )
 }
