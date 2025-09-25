@@ -14,7 +14,7 @@ import {
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 
-export default function AddPatientPage() {
+export default function PrescriptionPage() {
   const [activeTab, setActiveTab] = useState("patient");
   const [patient, setPatient] = useState({
     name: "",

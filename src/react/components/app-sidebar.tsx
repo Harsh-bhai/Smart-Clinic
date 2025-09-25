@@ -49,8 +49,8 @@ const data = {
       icon: IconListDetails,
     },
     {
-      title: "Add Patient",
-      url: "/add-patient",
+      title: "Prescription",
+      url: "/prescription",
       icon: IconChartBar,
     },
     {

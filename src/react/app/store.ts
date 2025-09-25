@@ -1,6 +1,9 @@
 import {configureStore} from "@reduxjs/toolkit"
+import prescriptionReducer from "@/features/prescription/prescriptionSlice"
 const store = configureStore({
-    reducer:{}
+    reducer:{
+        prescription: prescriptionReducer
+    }
 })
 
 export default store;
